@@ -1,0 +1,38 @@
+.body {
+    background-color: rgb(221, 221, 221);
+    margin-top: 70px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.search {
+    width: 50%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 30px;
+}
+
+.submit {
+    background-color: rgb(84, 230, 84);
+    height: 30px;
+    width: 30%;
+    margin-left: 20px;
+}
+
+.location {
+    border: 1px solid black;
+    width: 250px;
+    height: 250px;
+    background-color: white;
+    margin: auto;
+    margin-top: 80px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.searchBox{
+    margin-top: 80px;
+    width: 50%;
+    margin: auto;
+    background-color: white;
+}

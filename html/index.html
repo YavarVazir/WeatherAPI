@@ -1,0 +1,25 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+</head>
+
+<body class="body" onload="getWeather('Nagpur')">
+    <h2>What location are you looking for?</h2>
+    <div class="searchBox">
+        <input type="text" placeholder="Nagpur" id="input" class="search">
+        <input type="submit" value="Submit" id="button" class="submit"
+            onclick="getWeather(document.querySelector('.search').value)">
+    </div>
+    <div class="location">
+        <h3 id="cityname"></h3>
+        <h4 id="weather"></h4>
+        <img src="" width="75px" height="75px" id="icon">
+        <h4 id="temperature"></h4>
+    </div>
+    <script src="../script/script.js">
+    </script>
+</body>
+
+</html>
